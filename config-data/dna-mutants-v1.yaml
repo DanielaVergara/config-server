@@ -1,0 +1,17 @@
+spring.application.name=dnamutants
+server.port:8761
+
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+ eureka.server.enableSelfPreservation=false
+
+
+server.error.include-stacktrace=never
+
+spring.datasource.url = jdbc:postgres://jltkqqvbhjmjcc:15b7caaad155b9d28e7192acda76ef9bccac35b8687b512dd98e9b275ecbc093@ec2-3-217-251-77.compute-1.amazonaws.com:5432/d1933uq4b1bb8
+spring.datasource.username = jltkqqvbhjmjcc
+spring.datasource.password = 15b7caaad155b9d28e7192acda76ef9bccac35b8687b512dd98e9b275ecbc093
+
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQL10Dialect
+
+spring.jpa.hibernate.ddl-auto = update
